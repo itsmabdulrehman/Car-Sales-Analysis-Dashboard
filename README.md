@@ -15,3 +15,28 @@ These slicers allow users to customize their view. For example, selecting "Honda
 The dashboard also supports **interactive chart filtering**. Clicking on a part of any chart updates the rest of the visuals to reflect that selection. For instance, selecting "Automatic" in the transmission pie chart will filter all data to show only automatic cars while respecting other slicers.   
 
 The visualizations include bar charts for top-selling models, pie charts for drivetrain and fuel types, a time-series chart showing total sales by year, and a map of sales locations.
+
+## Dataset
+
+**Dataset Overview**:  
+This dataset, sourced from Kaggle, contains details of 2000 used vehicles from the Indian automotive market, including both numerical and categorical variables suitable for linear regression analysis of resale prices.
+
+**Size and Structure**:  
+- **Total Entries**: 20 rows  
+- **Attributes**: 20 columns, both numerical and categorical  
+
+**Key Attributes**:  
+- **Make and Model**: Categorical (vehicle manufacturer and model)  
+- **Price**: Numerical (resale price, dependent variable)  
+- **Year and Kilometers**: Numerical (manufacturing year and mileage)  
+- **Fuel Type, Transmission, Drivetrain**: Categorical (fuel type, transmission system, drivetrain type)  
+- **Dimensions and Specifications**: Numerical (engine capacity, power, torque, vehicle dimensions)  
+- **Ownership and Seller Type**: Categorical (ownership history, seller type)  
+- **Location and Color**: Categorical (location, color)
+
+**Data Types**:  
+- **Numerical**: Price, mileage, engine capacity, power, dimensions  
+- **Categorical**: Make, model, location, fuel type, transmission  
+
+**Source**:  
+The dataset is publicly available on Kaggle (https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho/data).
