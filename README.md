@@ -16,6 +16,10 @@ The dashboard also supports **interactive chart filtering**. Clicking on a part 
 
 The visualizations include bar charts for top-selling models, pie charts for drivetrain and fuel types, a time-series chart showing total sales by year, and a map of sales locations.
 
+Here's what the dashboard looks like:
+
+![alt text](https://github.com/itsmabdulrehman/Car-Sales-Analysis-Dashboard/blob/main/snapshot.png?raw=true)
+
 ## Dataset
 
 **Dataset Overview**:  
